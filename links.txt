@@ -1,0 +1,27 @@
+http://sourceforge.net/projects/mysql-python/files/mysql-python/
+http://xmlsoft.org/sources/win32/python/
+https://www.djangoproject.com/download/
+http://djbook.ru/rel1.5/intro/tutorial01.html
+https://pypi.python.org/pypi
+https://pypi.python.org/pypi/lxml/2.2.8
+http://dev.mysql.com/downloads/
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip
+http://djbook.ru/rel1.5/topics/db/queries.html
+http://djbook.ru/ch12s03.html #login
+
+
+
+
+
+
+commands
+c:\Python27\Scripts\easy_install.exe D:\Python\install\lxml-2.2.8-py2.7-win-amd64.egg
+c:\Python27\Scripts\pip.exe install virtualenv virtualenvwrapper
+django
+cd /d d:\Python\Django\digester_ua
+c:\Python27\python.exe C:\Python27\Lib\site-packages\django\bin\django-admin.py startproject digester_ua
+c:\Python27\python.exe manage.py runserver
+c:\Python27\python.exe manage.py startapp digester_app
+c:\Python27\python.exe manage.py sql polls
+c:\Python27\python.exe manage.py syncdb #created tables to new apps
+c:\Python27\python.exe manage.py shell #console

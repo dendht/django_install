@@ -1,0 +1,14 @@
+port: 3306
+Root
+password: denroot777
+
+User
+Den_dbadmin
+password: denroot123
+
+
+#############################
+Django's auth system
+den
+email: dendht@gmail.com
+password: denroot777
