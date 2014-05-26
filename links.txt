@@ -25,3 +25,10 @@ c:\Python27\python.exe manage.py startapp digester_app
 c:\Python27\python.exe manage.py sql polls
 c:\Python27\python.exe manage.py syncdb #created tables to new apps
 c:\Python27\python.exe manage.py shell #console
+
+
+SQL
+insert into digester.account_user_data values (4,'testuser_2','http://rutracker.org/forum/tracker.php?nm=the%20big%20bang%20theory%207','test4');
+update digester.auth_user set is_superuser = 1 where username = 'den_d';
+
+SELECT * FROM digester.auth_user;
